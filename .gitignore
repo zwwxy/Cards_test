@@ -1,0 +1,43 @@
+@"
+# Visual Studio
+.vs/
+proj.win32/.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.opendb
+
+# Build output
+Debug/
+Release/
+x64/
+x86/
+build/
+bin/
+obj/
+[Bb]uild/
+[Dd]ebug*/
+[Rr]elease*/
+Debug.win32/
+Release.win32/
+
+# C/C++ temp/debug
+*.ipch
+*.pch
+*.pdb
+*.ilk
+*.idb
+*.obj
+*.o
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+Makefile
+
+# logs/temp
+*.log
+*.tmp
+*.temp
+"@ | Set-Content .gitignore
